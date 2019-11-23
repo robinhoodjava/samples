@@ -1,4 +1,4 @@
-
+// Puzzle four exercises the layout of key value pairs in various ways
 alternate = false;
 for (key in things) {
     value = things[key]
