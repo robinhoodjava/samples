@@ -3,7 +3,7 @@ alternate = false;
 for (key in things) {
     value = things[key]
     if (alternate === true) {
-        document.write("<div style='background-color:#888; height:20px;padding:2px;border:2px;margin:2px'>");
+        document.write("<div style='background-color:#888; height:20px;padding:2px;border:2px solid black;margin:2px'>");
         alternate = false;
     }
     else {
