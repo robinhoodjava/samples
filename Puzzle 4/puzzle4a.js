@@ -5,6 +5,7 @@ things = {
     vector: 'list',
     hash: 'dictionary',
     lookup: 'dictionary',
+    Robin: 'robinhoodjava'
 }
 
 for (p of protein) {
@@ -14,6 +15,6 @@ for (p of protein) {
 
 for (key in things) {
     value = things[key];
-    document.write(key + ' --> ' + value)
+    document.write(key + ' --> ' + value + "<br>")
     document.write("<br>")
 }
