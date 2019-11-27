@@ -30,5 +30,6 @@ for (key in things) {
     document.write("</div>")
 
     document.write("<div style='clear:both;'></div>");
+    
 }
 
