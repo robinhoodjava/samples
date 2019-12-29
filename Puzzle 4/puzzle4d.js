@@ -13,23 +13,26 @@ for (key in things) {
         alternate = true;
     }
 
-    document.write("<div style='float:left; width:80px;'>")
-    document.write(key)
-    document.write("</div>")
+    function lookup() {
+        alert(value)
+    }
 
-    document.write("<div style='float:left; width:80px;'>")
+    document.write("<div class='Cell'>")
+    document.write(key)
+    document.write("</div>");
+    
+    document.write("<div class='Cell'>")
     document.write(value)
     document.write("</div>");
 
-    document.write("<div style='float:left; width:80px;'>")
-    document.write("<button onclick='clicked()'> Lookup </button>")
+    document.write("<div class='Cell'>")
+    document.write('<button onclick="lookup(\'' +key +'\')"> Lookup </button>')
     document.write("</div>");
-
-
-
+    
+   
+    
     document.write("</div>")
 
     document.write("<div style='clear:both;'></div>");
     
 }
-
